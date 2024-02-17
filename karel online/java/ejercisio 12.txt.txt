@@ -1,0 +1,65 @@
+class program {
+void turnright()
+  {
+    turnleft();
+    turnleft();
+    turnleft();
+  }
+  void avanza ()
+  {
+    turnright();
+    move();
+    move();
+    turnleft();
+  }
+    void vertical()
+    {
+      if (frontIsClear)
+      {
+        move();
+        vertical();
+        if(frontIsBlocked)
+        {
+          turnleft();
+          turnleft();
+          pickbeeper();
+          move();
+          }
+          else
+            move();
+        }
+      }
+        void horizontal()
+        {
+          if (frontIsClear)
+          {
+            move();
+            horizontal();
+            if (facingNorth)
+            {
+              turnright();
+              move();
+            }
+            else
+              move();
+          }
+          else
+          {
+          turnleft();
+          vertical();
+          }
+        }      
+        void regresar()
+        {
+        turnright();
+        move();
+        move();
+        turnright();
+        }
+    program () {
+      avanza();
+      horizontal();
+      regresar();
+        turnoff();
+    }
+}

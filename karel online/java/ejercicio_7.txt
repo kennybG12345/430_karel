@@ -1,0 +1,25 @@
+class program {
+void turnright()
+{
+turnleft();
+turnleft();
+turnleft();
+   }
+    program () {
+        // TODO poner codigo aqui
+        while(frontIsClear) {
+
+   move();
+   turnright();
+   move();
+   if (nextToABeeper)
+   {
+   pickbeeper();
+   }
+   turnleft();
+   
+
+}
+        turnoff();
+    }
+}

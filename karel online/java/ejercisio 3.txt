@@ -1,0 +1,20 @@
+class program {
+    program () {
+    if(facingEast) 
+    {
+    turnleft();
+    }
+    if(facingWest)
+    turnleft();
+    turnleft();
+    turnleft();
+    {
+    if (facingSouth)
+    {
+    turnleft();
+    turnleft();
+    }
+    }
+        turnoff();
+    }
+}

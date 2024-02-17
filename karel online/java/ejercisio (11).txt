@@ -1,0 +1,26 @@
+class program {
+void poner_o_dejar (n) {
+
+   if ( iszero(n) ) {
+
+      pickbeeper();
+
+   }
+
+   else {
+
+      iterate (n) {
+
+         putbeeper();
+
+      }
+
+   }
+
+}
+    program () {
+        // TODO poner codigo aqui
+        poner_o_dejar(0);
+        turnoff();
+    }
+}

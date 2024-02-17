@@ -1,0 +1,35 @@
+iniciar-programa
+    inicia-ejecucion
+        { TODO poner codigo aquí }
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        gira-izquierda;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+        apagate;
+    termina-ejecucion
+finalizar-programa

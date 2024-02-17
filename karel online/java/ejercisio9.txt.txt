@@ -1,0 +1,17 @@
+class program {
+void avanza(n)
+{
+iterate(n)
+{
+move();
+}
+}
+program () {
+// TODO poner codigo aqui
+while(frontIsClear)
+{
+avanza(1);
+}
+        turnoff();
+    }
+}
